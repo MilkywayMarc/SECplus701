@@ -694,3 +694,21 @@ http://192.168.102.133/otrs/customer.pl
 user1
 C1sc0123
 
+
+wazuh credentials/commands
+
+Linux:
+root
+C1sc0123
+
+Website:
+admin
+C1sc0123..
+
+Elastic:
+root
+C1sc0123
+
+Website: http://(ipaddress):5601
+elastic/admin
+C1sc0123
