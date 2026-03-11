@@ -700,6 +700,8 @@ wazuh credentials/commands
 Linux:
 root
 C1sc0123
+sudo systemctl stop firewalld
+ip addr
 
 Website:
 admin
@@ -712,3 +714,4 @@ C1sc0123
 Website: http://(ipaddress):5601
 elastic/admin
 C1sc0123
+
