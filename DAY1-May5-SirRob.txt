@@ -715,3 +715,24 @@ Website: http://(ipaddress):5601
 elastic/admin
 C1sc0123
 
+msfconsole
+sudo systemctl status ssh
+
+if not activated:
+sudo systemctl enable --now ssh
+
+sudo systemctl status ssh
+
+elastic: (securecrt)
+root
+C1sc0123
+
+filebeat:
+sudo systemctl status rsyslog
+sudo nano /etc/filebeat/filebeat.yml
+
+sudo systemctl restart filebeat
+elastic (Rocky IP)
+elastic
+C1sc0123
+-----------
